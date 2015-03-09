@@ -1,0 +1,31 @@
+.quote {
+	text-align: justify;
+	font-style: italic !important;
+}
+
+.quote:before {
+	content: &ldquo !important;
+}
+
+.ref {
+	text-align: left;
+}
+
+.ref:before {
+	content: "";
+	display: block;
+}
+
+
+.box {
+	padding: 30px !important;
+	border-radius: 10px;
+	background-color: #000;
+	background: rgba(0,0,0,0.7)    /* 70% opaque red */  
+}
+
+li.ident {
+	list-style-type: circle;
+	margin-left: 30px;
+}
+
