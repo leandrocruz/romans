@@ -1,19 +1,21 @@
+.shadow {
+	text-shadow: 1px 1px 1px #000 !important;
+}
 .quote {
 	text-align: justify;
 	font-style: italic !important;
 }
 
 .quote:before {
-	content: &ldquo !important;
+	content: "\201C";
+}
+
+.quote:after {
+	content: "\201D";
 }
 
 .ref {
 	text-align: left;
-}
-
-.ref:before {
-	content: "";
-	display: block;
 }
 
 
@@ -33,3 +35,16 @@ li.ident {
 	box-shadow: 30px 30px 10px 5px #000;
 }
 
+.poster {
+	float: left;
+	_border: 1px solid red !important;
+	display: inline;
+}
+
+.poster p {
+	color: #fff;
+	background-color: #000;
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+}
