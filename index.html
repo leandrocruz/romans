@@ -26,6 +26,8 @@
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
+
+		<script type="text/javascript" src="bower/jquery/dist/jquery.min.js"></script>
 	</head>
 
 	<body>
@@ -41,11 +43,50 @@
 				</section>
 				<section>
 					<div class="quote">Não me envergonho do evangelho, porque é o poder de Deus para a salvação de todo aquele que crê: 
-						primeiro do judeu, depois do grego.<br/>
+						primeiro do judeu, depois do grego.
 						Porque no evangelho é revelada a justiça de Deus, uma justiça que do princípio ao fim é pela fé, 
 						como está escrito: "O justo viverá pela fé".</div>
 					<p class="ref">
 						<small><a href="https://www.bibliaonline.com.br/nvi/rm/1/16-17">Romanos 1:16-17</a></small>
+					</p>
+					<aside class="notes">
+						<h3>Você já ficou envergonhado?</h3>
+						<a href="https://www.bibliaonline.com.br/nvi/mc/8">Marcos 8:38</a>
+						<div class="quote">Se alguém se envergonhar de mim e das minhas palavras nesta geração adúltera e pecadora, o Filho do homem se envergonhará dele quando vier na glória de seu Pai com os santos anjos</div>				
+					</aside>
+				</section>
+				<section>
+					<img src="img/aurelius_cornelius_celsus.jpg" width="180px" />
+					<div class="quote">Que ninguém instruído venha a nós, ou que seja prudente ou sábio, mas se há alguém ignorante, ou não inteligente, ou não instruído, ou tolo, que venham com confiança. Com essas palavras, reconhecendo que tais indivíduos são dignas de seu deus, eles mostram claramente que eles desejam e são capazes de sobrepujar os tolos, os medíocres e os estúpidos, com mulheres e crianças</div>
+					<p class="ref">
+						<small><a href="http://www.e-cristianismo.com.br/pt/cristologia/221-celso-e-a-historicidade-de-cristo">Celso e a historicidade de Cristo</a></small>
+					</p>
+				</section>
+				<section>
+					<img id="dawkins" src="img/dawkins.png" width="220px" />
+					<div class="quote">It is absolutely safe to say that if you meet somebody who claims not to believe in evolution, that person is ignorant, stupid or insane (or wicked, but I'd rather not consider that).</div>
+					<p class="ref">
+						<small><a href="http://www.goodreads.com/quotes/273975-it-is-absolutely-safe-to-say-that-if-you-meet">Richard Dawkins</a></small>
+					</p>
+				</section>
+				<section>
+					<img src="img/inri-moto.jpg" width="250px"/>
+					<div class="quote">Eu sou o mesmo Cristo que crucificaram.</div>				
+					<p class="ref">
+						<small><a href="http://www.frasesfamosas.com.br/frases-de/inri-cristo/">Inri Cristo</a></small>
+					</p>
+					<aside class="notes">
+						<h3>Nós temos que acreditar no Jesus correto?</h3>
+						Não basta ser sincero?
+					</aside>
+				</section>
+				<section>
+					<img src="img/spurgeon.jpg" width="180px"/>
+					<div class="quote">Now, I hold no man's faith to be sure faith unless he knows what he believes.
+						If he says, "I believe," and does not know what he believes, how can that be true faith?
+					</div>				
+					<p class="ref">
+						<small><a href="http://www.spurgeon.org/sermons/0107.htm">Charles H. Spurgeon</a></small>
 					</p>
 				</section>
 				<section data-background="img/santaclaus.jpg">
@@ -64,20 +105,14 @@
 						</ul>
 					</div>
 				</section>
-				<section>
-					<img src="img/spurgeon.jpg" width="180px"/>
-					<div class="quote">Now, I hold no man's faith to be sure faith unless he knows what he believes.
-						If he says, "I believe," and does not know what he believes, how can that be true faith?
-					</div>				
-					<p class="ref">
-						<small><a href="http://www.spurgeon.org/sermons/0107.htm">Charles H. Spurgeon</a></small>
-					</p>
-				</section>
 				<section data-background="img/jesus.jpg">
 					<h2 class="shadow">O que é?</h2>
 					<p>
 						É a apresentação da verdade contida nas Escrituras sobre Jesus e sua obra na cruz em favor dos homens
 					</p>
+					<aside class="notes">
+						Esta apresentação precisa fazer sentido. A correta explicação do Evagelho inicia-se pela doutrina de Deus: quem Deus é			
+					</aside>
 				</section>
 				<section data-background="img/jesus.jpg">
 					<h2 class="shadow">O que é?</h2>
@@ -287,6 +322,15 @@
 				]
 			});
 
+			var dawkins = $("#dawkins");
+			dawkins.mouseenter(function() {
+				$(this).attr('src', $(this).attr('src').replace(/\.png/, '.jpg') );
+			});
+			dawkins.mouseleave(function() {
+				$(this).attr('src', $(this).attr('src').replace(/\.jpg/, '.png') );
+			});
+			
+			
 		</script>
 	</body>
 </html>
