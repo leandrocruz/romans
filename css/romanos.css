@@ -52,3 +52,20 @@ li.ident {
 	padding: 10px;
 	margin: 10px;
 }
+
+.verse-table dt, .verse-table dd {
+	float: left;
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+.verse-table dt {
+	_border: 1px solid red;
+	text-align: right;
+	width: 200px;
+}
+
+.verse-table dd {
+	_border: 1px solid green;
+}
