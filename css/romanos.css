@@ -61,11 +61,34 @@ li.ident {
 }
 
 .verse-table dt {
-	_border: 1px solid red;
+	border: 1px solid red;
 	text-align: right;
 	width: 200px;
 }
 
 .verse-table dd {
-	_border: 1px solid green;
+	border: 1px solid green;
+	after:
+}
+
+dl.inline {
+	_border: 1px solid red;
+}
+
+dl.inline dt{
+	min-width: 400px;
+	display: inline-block;
+	text-align: right;
+	padding-right: 10px;
+}
+
+dl.inline dd {
+	border-bottom: 1px dotted yellow;
+	display: inline;
+	margin: 0;
+}
+
+dl.inline dd:after{
+	display: block;
+	content: '';
 }
