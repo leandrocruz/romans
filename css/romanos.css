@@ -53,37 +53,16 @@ li.ident {
 	margin: 10px;
 }
 
-.verse-table dt, .verse-table dd {
-	float: left;
-	display: inline;
-	margin: 0;
-	padding: 0;
-}
-
-.verse-table dt {
-	_border: 1px solid red;
-	text-align: right;
-	width: 200px;
-}
-
-.verse-table dd {
-	_border: 1px solid green;
-	after:
-}
-
 dl.inline {
-	_border: 1px solid red;
 }
 
-dl.inline dt{
-	min-width: 400px;
+dl.inline dt {
 	display: inline-block;
 	text-align: right;
 	padding-right: 10px;
 }
 
 dl.inline dd {
-	border-bottom: 1px dotted yellow;
 	display: inline;
 	margin: 0;
 }
@@ -91,4 +70,16 @@ dl.inline dd {
 dl.inline dd:after{
 	display: block;
 	content: '';
+}
+
+dl.verse-table dt {
+	width: 200px;
+}
+
+dl.verse-table-2 dt {
+	min-width: 400px;
+}
+
+dl.verse-table-2 dd {
+	border-bottom: 1px dotted yellow;
 }
