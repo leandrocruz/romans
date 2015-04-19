@@ -87,3 +87,13 @@ dl.verse-table-2 dt {
 dl.verse-table-2 dd {
 	border-bottom: 1px dotted yellow;
 }
+
+.lion {
+	font-weight: bold;
+	font-size: 72pt !important;
+	font-family: helvetica;
+	padding: 30px !important;
+	background-color: #fff;
+	color: #000;
+	opacity: .5;
+}
