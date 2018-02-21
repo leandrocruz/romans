@@ -1,3 +1,11 @@
+.big {
+	font-size: 42pt !important;
+}
+
+.medium {
+	font-size: 36pt !important;
+}
+
 .yellow {
 	color: yellow !important;
 }
@@ -96,4 +104,20 @@ dl.verse-table-2 dd {
 	background-color: #fff;
 	color: #000;
 	opacity: .5;
+}
+
+div.stats {
+	font-size: 32pt;
+	margin: 20px;
+	text-align: left;
+}
+
+div.stats p[value] {
+	font-size: 60pt;
+	text-decoration: underline;
+	margin: 30px 0;
+}
+
+div.stats span[source] {
+	font-size: 10pt;
 }
