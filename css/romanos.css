@@ -113,7 +113,7 @@ div.stats {
 }
 
 div.stats p[value] {
-	font-size: 60pt;
+	font-size: 48pt;
 	text-decoration: underline;
 	margin: 30px 0;
 }
